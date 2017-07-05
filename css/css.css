@@ -1,0 +1,888 @@
+greenborder {
+    border-color: darkgreen;
+}
+
+label.error{color:#f00; font-weight: bold; 
+    margin-top: 0.5em;
+    padding: 0 15px;
+    font-size: 0.8em;
+}
+
+
+.tabelaheaderp {
+    font-size: 0.4em !important;
+    text-align: center !important;
+    color: white;
+    background-color: dodgerblue;
+    border-color: white!important;
+   
+    margin-left: 3em!important;
+
+
+}
+.nav-center {
+  text-align: center;
+  display: inline-block;
+}
+
+.transparente {
+    color: transparent;
+}
+
+.tabelaheadera {
+    font-size: 0.4em !important;
+    text-align: center !important;
+    color: white;
+    background-color: orange;
+    border-color: white!important;  
+    margin-left: 3em!important;
+}
+
+.tabelaheaderatv {
+    font-size: 0.4em !important;
+    text-align: center !important;
+    color: white;
+    background-color: #993399;
+    border-color: white!important;  
+    margin-left: 3em!important;
+}
+
+.tabelaheaderpr {
+    font-size: 0.4em !important;
+    text-align: center !important;
+    color: white;
+    background-color: red;
+    border-color: white!important;  
+    margin-left: 3em!important;
+}
+
+table {
+    border-collapse: collapse !important;
+    border-left: solid 4px dodgerblue !important;
+    border-right: solid 4px dodgerblue !important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    text-align: center !important;
+}
+
+.tablea {
+    border-left: solid 4px orange !important;
+    border-right: solid 4px orange !important;
+    
+}
+
+.tableatv {
+    border-left: solid 4px #993399 !important;
+    border-right: solid 4px #993399 !important;
+    
+}
+
+.tablepre {
+    border-left: solid 4px red !important;
+    border-right: solid 4px red !important;
+    
+}
+
+tr {
+    border: none !important;
+}
+.tdpeso {
+  
+  border-bottom: solid 6px dodgerblue !important;    
+      
+}
+
+.tdali {
+  
+  border-bottom: solid 6px orange !important;        
+}
+.tdatv {
+  
+  border-bottom: solid 6px #993399 !important;        
+}
+
+.tdpre {
+  
+  border-bottom: solid 6px red !important;
+   
+}
+.tdpre2 {
+  
+  background-color: red !important;
+    border-color: none;
+
+   
+}
+
+tbody {
+    font-size: 0.3em !important;
+    text-align: left !important;
+    color: black;
+    background-color: none;
+    border-color: black! important;
+    box-shadow: 1px 2px 15px -6px rgba(0,0,0,.8);
+    margin-left: 3em!important;
+    border-collapse: collapse;
+    
+}
+
+.bodylogin {
+	background-image: url(../img/background-desktop2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    display: block;
+    
+   
+}
+.my_form {
+	margin-top: 60rem;
+	background-color: #fff;
+	box-shadow: 1px 2px 15px -2px rgba(0,0,0,.8);
+	padding:2rem;
+	border-radius: .5rem;
+}
+.my_form .form-control{
+	height: auto;
+	padding:1rem;
+}
+.my_form .form-control:first-of-type{
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.my_form .form-control:last-of-type{
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
+
+.btn-login{
+	border-radius: 0;
+	background-color: darkgreen;
+	border:0;
+}
+
+footer {
+    border: none!important;
+    background-color: white!important;
+}
+  
+}
+
+.espaco {
+    margin-top: 10rem;
+}
+#cadastro {
+    font-size: 2.5em !important;
+    background-color: black;
+    color: white;
+    font-weight: normal;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+.navbar-nav
+    
+}
+
+.content {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+    
+}
+.user {
+    font-size: 0.35em;
+    text-align: left;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.engrenagem {
+    padding-left: 2rem;
+}
+
+.borda {
+    border: 5px solid;
+    border-color: #666666 !important; 
+    margin-bottom: 20px;
+    border-radius: 15px;
+    
+}
+#genero {
+    margin-right: 15px;
+    
+}
+
+.alertasenha {
+    font-size: 0.8em;
+} 
+
+.alertasenha2 {
+    font-size: 0.3em;
+} 
+
+#botao1 {
+    margin-right: 50px;
+    background-color: #00a651;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em !important;
+    
+}
+
+#botao2 {
+    background-color: #f07224;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em !important;
+
+}
+
+#botao3 {
+    background-color: #00a651;
+    color: white;
+    font-weight: bold; 
+    font-size: 0.5em;
+    text-align: left;
+    margin-top: 5rem;
+    margin-left: 15px;
+    margin-bottom: 25rem;
+    position: relative;
+    float: left;
+    
+}
+
+#botaoaddpeso {
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold; 
+    font-size: 0.4em;
+    text-align: center;
+
+
+    
+}
+
+#botaoaddal {
+    background-color: orange;
+    color: white;
+    font-weight: bold; 
+    font-size: 0.4em;
+    text-align: center;
+    border-bottom-color: orange;
+    
+}
+
+#botaoaddatv {
+    background-color: #993399;
+    color: white;
+    font-weight: bold; 
+    font-size: 0.4em;
+    text-align: center;
+    border-bottom-color: #993399;
+    
+}
+
+#botaoaddpre {
+    background-color: red;
+    color: white;
+    font-weight: bold; 
+    font-size: 0.4em;
+    text-align: center;
+    border-bottom-color: red;
+    
+}
+
+#usrc {
+    margin-left: 5%;
+}
+.icone {
+    font-size: 1.8em;
+    
+   
+    
+}
+
+.scale {
+    color: black;
+    font-size: 40px;
+    margin-top: 7px;
+    margin-left: 10px;
+    align-content: center;
+
+    
+    
+}
+.ok {
+    font-size: 0.8em;
+    color: green;
+    background-color: white;
+    border: none;
+}
+
+.no {
+    font-size: 0.8em;
+    color: red;
+    margin-left: 2em; 
+}
+
+
+
+.headericon {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: dodgerblue;
+    background-color: white;
+    text-align: center;
+    border-color: white!important;
+    margin-top: 3em;
+
+}
+
+.infoback {
+    background-color: #4388cc;
+    
+}
+
+#infoback {
+    background-color: inherit;
+    
+}
+*{
+    padding: 0;
+    margin: 0;    
+}
+
+#content {
+    width:auto;
+    margin:auto; 
+    height:auto; 
+    background:#4388cc; 
+    overflow:auto;
+    border: none;
+}
+
+#food {
+    color: black;
+    width: 20px;
+}
+
+.head {
+    
+}
+.navbar .navbar-header > a {
+font-size: 1.4em;
+width: 40px;
+padding-left: 0px;
+
+}
+
+.navcolor {
+    background-color: #00a651;
+}
+
+#black {
+    color: black;
+}
+#footer {
+    background-color: #4388cc;
+    width: auto;
+    height: auto;
+    border: none;
+    
+    
+}
+
+}
+footer {
+    background-color: #4388cc;
+    overflow: auto;
+}
+
+.lupa {
+    height: auto;
+    margin-left: 50em;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    z-index: 2;
+    
+}
+
+
+
+#text {
+  z-index: 100;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  height: 30%;
+  margin-bottom: 0%;
+    
+}
+.logo {
+    width: 20%;
+    height: auto;
+}
+
+h4 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+hea {
+    margin-top: 3em!important;
+}
+
+.logo2 {
+    
+    max-width: 1em;
+    height: auto;
+    margin-bottom: 0.2em;
+    margin-right: 1em;
+    margin-left: 0.8em;
+    background-color: white!important;  
+
+    
+}
+
+#recuperar {
+    font-size: 0.5em;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 25px;
+    float: left;
+}
+
+.bear {
+    float: right;
+    display: block;
+    max-width: 15%;
+    margin-top: 1px;
+    margin-right: 100px;
+}
+
+.alimentacao {
+    color: orange;
+}
+
+.atividade {
+    color: #993399;
+}
+
+.pressao {
+    color: red;
+}
+
+.esqueci {
+    color: red;
+    text-align: right;
+    float: right;
+}
+
+.btncad {
+    background-color: #666666;
+    color: white;
+    margin:auto;
+    display:block;
+    width: 55%;
+}
+
+.mainheader {
+    color: #666666 !important;
+    background-color: white !important;
+    border-color: white !important;
+    text-align: center;
+   
+}
+
+.info {
+    float: right;
+    max-width: 25px;   
+    height: auto;
+    margin-top: 25px;
+    margin-right: 20px; 
+}
+
+.mainheader h1 {
+   
+    margin-left: 15px;
+}
+
+.lessby {
+    width: 3em; 
+    margin-bottom: 0.5e
+}
+
+.lessby2 {
+    width: 2.5em; 
+    margin-bottom: 0.2em;
+}
+.mainheaderc {
+    color: #666666 !important;
+    background-color: white !important;
+    border-color: white !important;
+    font-size: 3em;
+   
+}
+
+.grafico {
+    background-color: white;
+    font-size: .55em;
+    margin-top: 25px;
+    align-content: center;
+
+  
+    
+}
+
+
+
+#left {
+    float: left;
+    margin-left: 50px;
+}
+
+.bordagrafico {
+    border-bottom: 15px solid #E7E7E7;
+    margin-top: 0.8em;
+}
+
+
+
+.centro {
+    float: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: .4em;
+    margin-top: 1em;
+    margin-left: auto;
+    
+}
+
+.centro2 {
+    float: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8em;
+
+    margin-left: auto;
+    
+}
+
+.underline {
+    text-decoration: underline !important;
+    font-weight: bold;
+    font-size: .5em;
+    text-align: center;
+    align-content: center;
+    
+}
+
+.underline2 {
+    text-decoration: underline !important;
+    font-weight: bold;
+    font-size: .9em;
+    text-align: center;
+    align-content: center;
+    
+}
+
+.underline3 {
+    font-weight: bold;
+    font-size: .5em;
+    text-align: center;
+    align-content: center;
+    
+}
+
+.iconpage {
+    
+
+    text-align: center;
+    width: 10%;
+    height: auto;
+
+    
+}
+.ula {
+    text-align: center;
+}
+
+#centeredmenu {
+   float:left;
+   width:100%;
+   overflow:hidden;
+   position:relative;
+}
+#centeredmenu ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+#centeredmenu ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+#centeredmenu ul li a {
+   display:block;
+   margin:0 0 0 0px;
+   padding:3px 10px;
+   background:#00A651;
+   text-decoration:none;
+   line-height:0.7em;
+}
+#centeredmenu ul li a:hover {
+   background:white;
+   color:#fff;
+}
+#centeredmenu ul li a.active,
+#centeredmenu ul li a.active:hover {
+   color:#fff;
+   font-weight:bold;
+}
+
+.limenu {
+    display: inline-block;
+    float: none;
+}
+
+.left {
+    margin-left: 0;
+}
+.head {
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+    color: dodgerblue;
+}
+
+#orange {
+    color: orange;
+}
+
+#purple {
+    color: #993399;
+}
+
+#red {
+    color: red;
+}
+}
+.esquerda {
+    float: left;
+}
+
+.white {
+    background-color: white!important;
+}
+
+.direita {
+    float: right !important;
+    text-align: right !important;
+    text-decoration: none !important;
+    font-size: .8em;
+    margin-top: 0.8em;
+    margin-right: 0.8em;
+    margin-left: auto;
+}
+
+
+
+.grafico2 {
+    background-color: white;
+    margin-bottom: 20px; 
+    align-content: center;
+    margin-top: 70px;
+    text-align: center;
+    
+}
+
+.centroi {
+    margin-left: 2%;
+    float: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: .4em;
+    margin-top: 1em;
+}
+
+.pesob {
+    margin-right: 50px!important;
+    margin-left: 50px!important;
+}
+
+.maincd {
+    border-color: white!important;
+    
+    
+}
+
+.mainds {
+    background-color: #e7e7e7;
+    height: 100%;
+}
+
+
+restante {
+    height: 100%;
+}
+.imgmenu {
+    order: 2;
+    float: center;
+    max-width: 110px;   
+    height: auto;
+    margin-top: 5px;
+}
+
+.navbar {
+    text-align: center !important;
+   
+    
+    
+}
+
+.span>img>src {
+    margin-top: 50px;
+}
+.h4ds {
+    text-align: left !important;
+    font-weight: bold;
+    
+}
+
+#age {
+    text-align: left;
+}
+
+.navbar-nav li {
+    display: inline !important;
+}
+
+.navbar-nav a {
+    display: inline-block !important;
+}
+
+.navbar-nav>li:hover {
+    background-color: white;
+    transition: all 3s. ease-in-out;
+}
+
+.semborda {
+    border: none;
+}
+.cadastro {
+    font-size: 0.4em !important;
+    font-family: sans-serif !important;
+    text-align: left;
+    margin-left: 30px;
+    border: none !important;
+    border-color: white !important;
+    margin-right: 30px; 
+ 
+    
+}
+
+.background-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/background-desktop.jpg);
+}
+
+
+.row{
+  
+  margin-bottom: 20px;
+  
+}
+
+main, header, footer{
+  border: 1px black solid;
+  border-color: #C0C0C0;
+  background-color:#B0C4DE;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 50px;
+  text-align: center;
+}
+
+@media screen and (min-width: 1920px) {
+
+  main{
+    height:80vh;
+    background-color:#aa4;
+  }
+}
+
+@media screen and (min-width: 980px) { 
+
+  main{
+    height:65vh; 
+    background-color:#aa5;
+  }
+}
+
+@media screen and (min-width: 520px) { 
+
+  main{
+    height:62vh; 
+    background-color:#666;
+  }
+}
+
+@media screen and (min-width: 360px) { 
+
+  main{
+    height:62vh; 
+    background-color:#fff;
+  }
+}
+
+
+    <form id="login" method="post">
+                <fieldset>
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" placeholder="E-mail" required />  
+                <input type="submit" />
+                <label for="senha">Senha: </label>
+                <input type="password" id="senha">
+                <input type="submit" />  
+                </fieldset>  
+            </form>
+
+ <div class="row">
+          <footer>Rodapé</footer>          
+        </div>  
+      </div>  
+
+
+<div class="row menu">
+              <div class="container-md-10">
+                <div class="imgmenu hover">
+                    <a href="dashboard.html"> 
+                    <img src="../img/house-noattribution.svg" alt="home" /> 
+                    </a>     
+                </div>
+                
+              </div>
+
+
+  <ul class="nav navbar-nav">
+                      <li class="active"><a href="dashboard.html"><img src="../img/house-noattribution.svg" alt="home" /></a></li>
+                      <li class="nav navbar-nav"><a href="perfil.html"><img src="../img/user-noattribution.svg" alt="perfil" /></a></li>    
+                      <li class="nav navbar-nav"><a href="perfil.html"><img src="../img/scale-noattribution.svg" alt="home" /></a></li> 
+                      <li class="nav navbar-nav"><a href="alimentacao.html"><img src="../img/food-noattribution3.png" alt="home" /></a></li> 
+                      
+                  </ul>
+              

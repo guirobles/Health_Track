@@ -1,0 +1,80 @@
+<!Doctype html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="utf-8">  
+    <meta name="description" content="BOOTSTRAP">
+    <meta name="keywords" content="HealthTrack,saúde,web,aplicação,monitorar,pressão,peso,imc,atividade">
+    <meta name="author" content="Guilherme Robles">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Atividade Física</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/css.css">  
+  </head>
+  <body>
+      <!-- Container Principal -->
+      <div class="container-fluid white">
+          <div class="mainheader row">
+              
+            <span><a href="info.html"><img src="../img/info.png" class="info" alt="info" /></a></span>
+            <header class="mainheader text-center"><span><img src=../img/logo.svg class="logo2"/></span>HEALTH TRACK
+              </header>  
+          </div>
+          <div id="centeredmenu">
+              <nav class="navbar navbar-default col-xs-12 col-md-12 navcolor">
+                  <ul class="nav navbar-nav text-center">
+                      <li><a href="dashboard.html"><img src="../img/house-noattribution.svg" /><span class="transparente">Homeee</span></a></li>
+                      <li><a href="usuario.html"><img src="../img/user-noattribution.svg" /><span class="transparente">Homeee</span></a></li>    
+                      <li><a href="peso.html"><img src="../img/scale-noattribution.svg" /><span class="transparente">Homeee</span></a></li>  
+                      <li><a href="alimentacao.html"><img src="../img/cutlery.svg" /><span class="transparente">Homeee</span></a></li>
+                      <li><a href="atividade.html"><img src="../img/biking.svg" /><span class="transparente">Homeee</span></a></li>
+                      <li><a href="pressao.html"><img src="../img/heart-icon.svg" /><span class="transparente">Homeee</span></a>
+                      <li><a href="../index.html"><img src="../img/shutdown-noattribution.svg" /><span class="transparente">Homeee</span></a></li>  
+                  </ul>
+                    </nav></div>
+                <header class="row white semborda"><span><img src="../img/biking-noattribution.svg" class="iconpage" /></span><p class="head" id="purple">ATIVIDADE FÍSICA</p></header>
+                      <main class="row semborda table-responsive col-xs-12 col-md-12">   
+                    <table class="table center tableatv">
+                
+    <thead>
+      <tr class="tabelaheaderatv">
+        <th>DATA E HORÁRIO</th>
+        <th>TIPO</th>
+        <th>DESCRIÇÃO</th>
+        <th>CALORIAS</th>
+        <th>ALTERAR</th>
+        <th>DELETAR</th>
+      </tr>
+    </thead>
+    <tbody class="tbody table-bordered">
+      <tr class="table-bordered">
+        <td class="tdatv">20/03/2017 - 10:15</td>
+        <td class="tdatv">Caminhada</td>
+        <td class="tdatv">Caminhada de 4km com duração de 1 hora</td> 
+        <td class="tdatv">450</td>  
+        <td class="tdatv"><a href="altatv.html"><span class="glyphicon glyphicon-cog engrenagem"></span></a></td>
+        <td class="tdatv"><span class="glyphicon glyphicon-trash"></span></td>
+      </tr>
+         <tr>
+        <td class="tdatv">26/03/2017 - 15:00</td>
+        <td class="tdatv">Musculação</td>
+        <td class="tdatv">Diversos exercícios com duração de uma hora e meia</td> 
+        <td class="tdatv">600</td>  
+        <td class="tdatv"><a href="altatv.html"><span class="glyphicon glyphicon-cog engrenagem"></span></a></td>
+        <td class="tdatv"><span class="glyphicon glyphicon-trash"></span>
+      </tr>
+    </tbody>
+  </table>
+                            <footer class="semborda"><form action="addatv.html"><button type="submit" class="btn btn-default" id="botaoaddatv">Adicionar Atividade Física</button></form>
+                  </footer>
+            </main>
+        
+   
+
+          </div>
+     <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
+
