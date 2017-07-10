@@ -723,7 +723,8 @@ hea {
 }
 
 .maincd {
-    border-color: white!important;
+    border: none;
+    background-color: white;
     
     
 }
