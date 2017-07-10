@@ -1,3 +1,17 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #bbb;
+}
+td, th {
+    border-top: 1px solid #ddd;
+    padding: 4px 8px;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: white;
+}
+
 greenborder {
     border-color: darkgreen;
 }
@@ -817,6 +831,13 @@ main, header, footer{
   padding-bottom: 10px;
   font-size: 50px;
   text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+table {
+		overflow-x: auto;
+		display: block;
+	}
 }
 
 @media screen and (min-width: 1920px) {

@@ -161,6 +161,12 @@ $('#pressaos').keyup( function(e){
     }
 });
 
+$(document).on('click', '#run', function(e) {
+    e.preventDefault();
+    $('#simple-example-table').stacktable({hideOriginal:true});
+    $(this).replaceWith('<span>ran</span>');
+});
+
 
 
 
