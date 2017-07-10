@@ -781,6 +781,7 @@ restante {
 
 .semborda {
     border: none;
+    background-color: white;
 }
 .cadastro {
     font-size: 0.4em !important;
