@@ -1,15 +1,38 @@
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+table { 
+  width: 100%; 
+  border-collapse: collapse;
+    border-left: solid 6px white !important; 
+}
+/* Zebra striping */
+
+th { 
+  background: inherit; 
+  color: white; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+
+  text-align: left; 
+}
 table {
     border-collapse: collapse;
     border-spacing: 0;
-    border: 1px solid #bbb;
+    border: 1px solid white;
 }
+
 td, th {
     border-top: 1px solid #ddd;
     padding: 4px 8px;
 }
 
-tbody tr:nth-child(even) td {
-    background-color: white;
+.sub {
+    text-decoration: underline;
+    color: white;
+    
 }
 
 greenborder {
@@ -26,14 +49,17 @@ label.error{color:#f00; font-weight: bold;
 .tabelaheaderp {
     font-size: 0.4em !important;
     text-align: center !important;
-    color: white;
     background-color: dodgerblue;
-    border-color: white!important;
-   
-    margin-left: 3em!important;
+    
+
+
+
+
 
 
 }
+
+
 .nav-center {
   text-align: center;
   display: inline-block;
@@ -102,13 +128,23 @@ tr {
 }
 .tdpeso {
   
-  border-bottom: solid 6px dodgerblue !important;    
+  border-bottom: solid 10px white !important;
+   
+  border-color: white;
+  background-color: dodgerblue;
+  color: white;
+  font-weight: bold;
+
       
 }
 
 .tdali {
   
-  border-bottom: solid 6px orange !important;        
+  border-bottom: solid 10px white !important; 
+  border-color: white;
+  background-color: orange;
+  color: white;
+  font-weight: bold;        
 }
 .tdatv {
   
@@ -131,9 +167,7 @@ tr {
 tbody {
     font-size: 0.3em !important;
     text-align: left !important;
-    color: black;
-    background-color: none;
-    border-color: black! important;
+    border-color: none! important;
     box-shadow: 1px 2px 15px -6px rgba(0,0,0,.8);
     margin-left: 3em!important;
     border-collapse: collapse;
@@ -213,6 +247,7 @@ footer {
 
 .engrenagem {
     padding-left: 2rem;
+    color: white;
 }
 
 .borda {
