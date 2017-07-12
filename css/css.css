@@ -4,7 +4,8 @@ Generic Styling, for Desktops/Laptops
 table { 
   width: 100%; 
   border-collapse: collapse;
-    border-left: solid 6px white !important; 
+    border-left: solid 6px white !important;
+  margin: auto; }
 }
 /* Zebra striping */
 
@@ -34,6 +35,10 @@ td, th {
     color: white;
     
 }
+
+.centered {
+    margin: auto;!important 
+}
 .anotherblue {
   font-size: 1.2em; 
   border: none;
@@ -41,6 +46,7 @@ td, th {
   color: white;
   font-weight: bold;
 }
+
 
 greenborder {
     border-color: darkgreen;
@@ -56,7 +62,7 @@ label.error{color:#f00; font-weight: bold;
 .tabelaheaderp {
     font-size: 0.4em !important;
     text-align: center !important;
-    background-color: dodgerblue;
+    background-color: #0169CE;
 }
 
 
@@ -73,7 +79,7 @@ label.error{color:#f00; font-weight: bold;
     font-size: 0.4em !important;
     text-align: center !important;
     color: white;
-    background-color: orange;
+    background-color: #FF7F00;
     border-color: white!important;  
     margin-left: 3em!important;
 }
@@ -105,8 +111,8 @@ table {
 }
 
 .tablea {
-    border-left: solid 4px orange !important;
-    border-right: solid 4px orange !important;
+    border-left: solid 4px #FF7F00 !important;
+    border-right: solid 4px #FF7F00 !important;
     
 }
 
@@ -130,10 +136,29 @@ tr {
 
   font-size: 1.2em; 
   border: none;
-  background-color: dodgerblue;
+  background-color: #0169CE;
+  color: white;
+
+
+      
+}
+
+.tdpeso2 {
+  
+
+  font-size: 1.3em; 
+  border: none;
+  background-color: #0169CE;
   color: white;
   font-weight: bold;
+  text-decoration: underline;   
+      
+}
 
+.tdpeso3 {
+  
+
+  border: 56px #0169CE;!important    
       
 }
 
@@ -141,7 +166,7 @@ tr {
   
   border-bottom: solid 10px white !important; 
   border-color: white;
-  background-color: orange;
+  background-color: #FF7F00;
   color: white;
   font-weight: bold;        
 }
@@ -165,10 +190,9 @@ tr {
 
 tbody {
     font-size: 0.3em !important;
-    text-align: left !important;
-    border-color: none! important;
+    text-align: center; !important;
+    border-color: white;
     box-shadow: 1px 2px 15px -6px rgba(0,0,0,.8);
-    margin-left: 3em!important;
     border-collapse: collapse;
     
 }
@@ -312,12 +336,12 @@ footer {
 }
 
 #botaoaddal {
-    background-color: orange;
+    background-color: #FF7F00;
     color: white;
     font-weight: bold; 
     font-size: 0.4em;
     text-align: center;
-    border-bottom-color: orange;
+    border-bottom-color: #FF7F00;
     
 }
 
@@ -508,7 +532,7 @@ hea {
 }
 
 .alimentacao {
-    color: orange;
+    color: #FF7F00;
 }
 
 .atividade {
@@ -709,11 +733,11 @@ hea {
     font-size: 0.8em;
     font-weight: bold;
     text-align: center;
-    color: dodgerblue;
+    color: #0169CE;
 }
 
 #orange {
-    color: orange;
+    color: #FF7F00;
 }
 
 #purple {
