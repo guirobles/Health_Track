@@ -34,6 +34,13 @@ td, th {
     color: white;
     
 }
+.anotherblue {
+  font-size: 1.2em; 
+  border: none;
+  background-color: #0169CE;
+  color: white;
+  font-weight: bold;
+}
 
 greenborder {
     border-color: darkgreen;
@@ -50,13 +57,6 @@ label.error{color:#f00; font-weight: bold;
     font-size: 0.4em !important;
     text-align: center !important;
     background-color: dodgerblue;
-    
-
-
-
-
-
-
 }
 
 
@@ -98,8 +98,7 @@ label.error{color:#f00; font-weight: bold;
 
 table {
     border-collapse: collapse !important;
-    border-left: solid 4px dodgerblue !important;
-    border-right: solid 4px dodgerblue !important;
+
     margin-left: auto!important;
     margin-right: auto!important;
     text-align: center !important;
@@ -128,9 +127,9 @@ tr {
 }
 .tdpeso {
   
-  border-bottom: solid 10px white !important;
-   
-  border-color: white;
+
+  font-size: 1.2em; 
+  border: none;
   background-color: dodgerblue;
   color: white;
   font-weight: bold;
@@ -416,9 +415,6 @@ footer {
     width: 20px;
 }
 
-.head {
-    
-}
 .navbar .navbar-header > a {
 font-size: 1.4em;
 width: 40px;
