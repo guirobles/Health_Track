@@ -128,6 +128,8 @@ table {
     
 }
 
+
+
 tr {
     border: none !important;
 }
@@ -158,7 +160,7 @@ tr {
 .tdpeso3 {
   
 
-  border: 56px #0169CE;!important    
+  border: 5px #0169CE;!important    
       
 }
 
@@ -325,7 +327,7 @@ footer {
 }
 
 #botaoaddpeso {
-    background-color: dodgerblue;
+    background-color: #0169CE;
     color: white;
     font-weight: bold; 
     font-size: 0.4em;
@@ -666,14 +668,17 @@ hea {
 }
 
 .iconpage {
-    
-
     text-align: center;
-    width: 10%;
-    height: auto;
-
-    
+    width: 3em;
+    height: auto;   
 }
+
+.iconpage2 {
+    text-align: left;
+    width: 2.5em;
+    height: auto;
+}
+
 .ula {
     text-align: center;
 }
@@ -734,6 +739,7 @@ hea {
     font-weight: bold;
     text-align: center;
     color: #0169CE;
+    text-decoration: underline;
 }
 
 #orange {
@@ -888,43 +894,7 @@ main, header, footer{
   text-align: center;
 }
 
-@media screen and (max-width: 640px) {
-table {
-		overflow-x: auto;
-		display: block;
-	}
-}
 
-@media screen and (min-width: 1920px) {
-
-  main{
-    height:80vh;
-    background-color:#aa4;
-  }
-}
-
-@media screen and (min-width: 980px) { 
-
-  main{
-    height:65vh; 
-    background-color:#aa5;
-  }
-}
-
-@media screen and (min-width: 520px) { 
-
-  main{
-    height:62vh; 
-    background-color:#666;
-  }
-}
-
-@media screen and (min-width: 360px) { 
-
-  main{
-    height:62vh; 
-    background-color:#fff;
-  }
 }
 
 
