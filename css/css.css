@@ -153,7 +153,7 @@ tr {
   background-color: #0169CE;
   color: white;
   font-weight: bold;
-  text-decoration: underline;   
+  
       
 }
 
@@ -669,7 +669,7 @@ hea {
 
 .iconpage {
     text-align: center;
-    width: 3em;
+    width: 2.5em;
     height: auto;   
 }
 
