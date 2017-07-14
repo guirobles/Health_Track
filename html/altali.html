@@ -33,34 +33,60 @@
                       <li><a href="../index.html"><img src="../img/shutdown-noattribution.svg" /><span class="transparente">Homeee</span></a></li>  
                   </ul>
                     </nav></div>
-                <header class="row white semborda"><img src="../img/cutlery-icon.svg" class="iconpage"/><p class="head" id="orange">ALIMENTAÇÃO</p></header>
-               <main class="row semborda table-responsive col-xs-12 col-md-12">  
+                <header class="row white semborda"><img src="../img/cutlery-icon.svg" class="iconpage"/><p class="head" id="orange">ALTERAR ALIMENTAÇÃO</p></header>
+               <main class="semborda col-xs-12 col-md-12">  
                    <form action="alimentacao.html" class="form" id="formcd" method="post">
-                        <table class="table-center tablea">
-                            <thead>
-                                <tr class="tabelaheadera">
-                                    <th>DATA E HORÁRIO</th>
-                                    <th>TIPO</th>
-                                    <th>DESCRIÇÃO</th>
-                                    <th>CALORIAS</th>
+                        <table>
+                            <tr>
+                                <td class="tdali"><img src="../img/cutlery-icon3.svg" class="iconpage3"/></td> 
+                            </tr>  
+                            <tr>
+                                <td class="tdali"></td>    
+                            </tr>
+                            <tr>
+                                    <td class="tdali">DATA E HORÁRIO: <span class="tdali2"><input type=date name="data" value="20/03/2017"></span></td>
                                 </tr>
-                            </thead>
-                            <tbody class="tbody">
-      <tr class="table-bordered">
-        <td class="tdali"><input type=date name="data" value="20/03/2017" ></td>
-        <td class="tdali"> <select id="tpalimentacao" name="tpalimentacao" required>
-                <option value="C">Café da Manhã</option>
-                <option value="A">Almoço</option>
-                <option value="J">Jantar</option>
-                <option value="L">Lanche Leve</option>
-                <option value="F">Fruta</option>
-            </select></td>
-        <td class="tdali"><input name="text" value="2 fatias de queijo branco 0% gordura + omelete + 1 xíc. chá de café com leite desnatado"></td>
-        <td class="tdali"><input type="number" name="caloria" id="caloria" value="200cal" required></td>
+                                <tr>
+                                    <td class="tdali"></td>
                                 </tr>
+                                <tr>
+                                    <td class="tdali"></td>
+                                </tr>
+                                <tr>
+                                    <td class="tdali">TIPO: <span class="tdali2"><select id="tpalimentacao" name="tpalimentacao">
+                                    <option value="C">Café da Manhã</option>
+                                    <option value="A">Almoço</option>
+                                    <option value="J">Jantar</option>
+                                    <option value="L">Lanche Leve</option>
+                                    <option value="F">Fruta</option>
+                                        </select></span></td>
+                                </tr>
+                                <tr>
+                                    <td class="tdali"></td>
+                                </tr>
+                                <tr>
+                                    <td class="tdali"></td>
+                                </tr>
+                                <tr>
+                                    <td class="tdali">DESCRIÇÃO: <span class="tdali2"><textarea name="descricao" cols="30" rows="3">2 fatias de queijo branco 0% gordura + omelete + 1 xíc. chá de café com leite desnatado</textarea></span>
+                                    </td> 
+                                </tr>
+                                 <tr>
+                                    <td class="tdali"></td>
+                                </tr>
+                                <tr>
+                                    <td class="tdali"></td>
+                                </tr>
+                                <tr>
+                                    <td class="tdali">CALORIAS: <span class="tdali2"><input type="number" name="caloria" id="caloria" placeholder="200 cal"></span></td>     
+                                </tr>
+                                 <tr>
+                                    <td class="tdali"></td>
+                                </tr>       
+                                
                         </table>
                     </form>
-                   <div class="row btn-inline-group form-group"><span><a href="alimentacao.html"><button type="submit" class="ok glyphicon glyphicon-ok"></button></a></span><span><a href="alimentacao.html"><button class="no glyphicon glyphicon-remove"></button></a></span></div>
+                   <div class="row btn-inline-group form-group"><span><a href="alimentacao.html"><img src=../img/approved2-icon.svg class="iconok" /></a></span><span><a href="alimentacao.html"><img src=../img/cancel-icon.svg class="iconcancel" /></a></span></div>
             
              
                      

@@ -176,6 +176,15 @@ tr {
   background-color: #FF7F00;
   color: white;
 }
+
+.tdali2 {
+  
+  font-weight: bold;  
+  font-size: 0.9em; 
+  border: none;
+  background-color: #FF7F00;
+  color: black;
+}
 .tdatv {
   
   border-bottom: solid 6px #993399 !important;        
@@ -257,8 +266,9 @@ footer {
     text-align: center;
 }
 
-.navbar-nav
-    
+.sizebox {
+    width: 200px;
+    height: 50px;
 }
 
 .content {
