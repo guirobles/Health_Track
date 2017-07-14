@@ -160,17 +160,21 @@ tr {
 .tdpeso3 {
   
 
-  border: 5px #0169CE;!important    
+  font-size: 0.9em; 
+  border: none;
+  background-color: #0169CE;
+  color: black;
+  font-weight: bold;  
       
 }
 
 .tdali {
   
-  border-bottom: solid 10px white !important; 
-  border-color: white;
+  font-weight: bold;  
+  font-size: 1.2em; 
+  border: none;
   background-color: #FF7F00;
   color: white;
-  font-weight: bold;        
 }
 .tdatv {
   
@@ -677,6 +681,27 @@ hea {
     text-align: left;
     width: 2.5em;
     height: auto;
+}
+
+.iconpage3 {
+    text-align: left;
+    width: 3em;
+    height: auto;
+}
+
+.iconcancel {
+    text-align: center;
+    width: 1.4em;
+    height: auto;
+    margin-left: 0.5em;
+
+}
+
+.iconok {
+    text-align: center;
+    width: 1.4em;
+    height: auto; 
+    margin-right: 0.5em;
 }
 
 .ula {
