@@ -186,21 +186,34 @@ tr {
   color: black;
 }
 .tdatv {
-  
-  border-bottom: solid 6px #993399 !important;        
+  font-weight: bold;  
+  font-size: 1.2em; 
+  border: none;
+  background-color: #993399;
+  color: white;        
+}
+
+.tdatv2 {
+  font-weight: bold;  
+  font-size: 0.9em; 
+  border: none;
+  background-color: #993399;
+  color: black;        
 }
 
 .tdpre {
-  
-  border-bottom: solid 6px red !important;
-   
+  font-weight: bold;  
+  font-size: 1.2em; 
+  border: none;
+  background-color: red;
+  color: white;
 }
 .tdpre2 {
   
-  background-color: red !important;
-    border-color: none;
-
-   
+  font-weight: bold;  
+  font-size: 0.9em; 
+  border: none;
+  color: black;
 }
 
 tbody {
@@ -330,13 +343,7 @@ footer {
     background-color: #00a651;
     color: white;
     font-weight: bold; 
-    font-size: 0.5em;
-    text-align: left;
-    margin-top: 5rem;
-    margin-left: 15px;
-    margin-bottom: 25rem;
-    position: relative;
-    float: left;
+    font-size: 0.4em;
     
 }
 
@@ -372,12 +379,11 @@ footer {
 }
 
 #botaoaddpre {
-    background-color: red;
+    background-color: black;
     color: white;
     font-weight: bold; 
     font-size: 0.4em;
     text-align: center;
-    border-bottom-color: red;
     
 }
 
@@ -396,10 +402,13 @@ footer {
     font-size: 40px;
     margin-top: 7px;
     margin-left: 10px;
-    align-content: center;
-
+    align-content: center;   
     
-    
+}
+#borderuser {
+    border-color: #666666;
+    border-width: medium;
+    background-color: white;
 }
 .ok {
     font-size: 0.8em;
@@ -773,7 +782,7 @@ hea {
     font-size: 0.8em;
     font-weight: bold;
     text-align: center;
-    color: #0169CE;
+    color: black;
     text-decoration: underline;
 }
 
@@ -786,7 +795,7 @@ hea {
 }
 
 #red {
-    color: red;
+    color: black;
 }
 }
 .esquerda {
