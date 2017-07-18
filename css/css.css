@@ -69,10 +69,12 @@ label.error{color:#f00; font-weight: bold;
 .nav-center {
   text-align: center;
   display: inline-block;
+
 }
 
 .transparente {
     color: transparent;
+
 }
 
 .tabelaheadera {
@@ -465,8 +467,7 @@ footer {
 }
 
 .navbar .navbar-header > a {
-font-size: 1.4em;
-width: 40px;
+
 padding-left: 0px;
 
 }
@@ -504,6 +505,7 @@ footer {
 }
 
 
+footer { background: #dc1c1c; }
 
 #text {
   z-index: 100;
@@ -530,11 +532,11 @@ hea {
 
 .logo2 {
     
-    max-width: 1em;
+    max-width: 2.8em;
     height: auto;
-    margin-bottom: 0.2em;
-    margin-right: 1em;
-    margin-left: 0.8em;
+    margin-left: 1em;
+    margin-top: 1.8em;
+    float: left;
     background-color: white!important;  
 
     
@@ -587,15 +589,16 @@ hea {
     background-color: white !important;
     border-color: white !important;
     text-align: center;
+    font-size: 3em;
+
    
 }
 
 .info {
-    float: right;
+    float: left;
     max-width: 25px;   
     height: auto;
-    margin-top: 25px;
-    margin-right: 20px; 
+
 }
 
 .mainheader h1 {
@@ -736,19 +739,19 @@ hea {
 #centeredmenu ul {
    clear:left;
    float:left;
-   list-style:none;
+   list-style:;
    margin:0;
    padding:0;
    position:relative;
    left:50%;
-   text-align:center;
+
 }
 #centeredmenu ul li {
    display:block;
    float:left;
    list-style:none;
-   margin:0;
-   padding:0;
+   margin:0px;
+   padding:0px;
    position:relative;
    right:50%;
 }
@@ -758,7 +761,7 @@ hea {
    padding:3px 10px;
    background:#00A651;
    text-decoration:none;
-   line-height:0.7em;
+   line-height:0.1em;
 }
 #centeredmenu ul li a:hover {
    background:white;
@@ -774,6 +777,12 @@ hea {
     display: inline-block;
     float: none;
 }
+
+.sizeimg {
+    width: 2em; 
+    height: auto;
+}
+
 
 .left {
     margin-left: 0;
