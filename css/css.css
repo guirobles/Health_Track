@@ -264,7 +264,8 @@ tbody {
 
 footer {
     border: none!important;
-    background-color: white!important;
+    background-color: black!important;
+    color: white;
 }
   
 }
@@ -325,12 +326,11 @@ footer {
 } 
 
 #botao1 {
-    margin-right: 50px;
     background-color: #00a651;
     color: white;
     font-weight: bold;
     font-size: 0.9em !important;
-    
+
 }
 
 #botao2 {
@@ -338,7 +338,6 @@ footer {
     color: white;
     font-weight: bold;
     font-size: 0.9em !important;
-
 }
 
 #botao3 {
@@ -478,20 +477,7 @@ padding-left: 0px;
 #black {
     color: black;
 }
-#footer {
-    background-color: #4388cc;
-    width: auto;
-    height: auto;
-    border: none;
-    
-    
-}
 
-}
-footer {
-    background-color: #4388cc;
-    overflow: auto;
-}
 
 .lupa {
     height: auto;
@@ -503,8 +489,6 @@ footer {
     
 }
 
-
-footer { background: #dc1c1c; }
 
 #text {
   z-index: 100;
@@ -592,11 +576,24 @@ hea {
    
 }
 
+footer {
+    background-color: white!important;
+    color: black!important;
+}
+.creditos {
+    margin-top: 3m;
+    margin-left: 0.3em;
+    font-size: 1em;
+    padding-top: 3em;
+}
+
 .info {
-    float: right;
-    max-width: 25px;   
+    float: left;
+    max-width: 15px;   
     height: auto;
-    margin-top: 0.4em;
+    margin-top: 0.2em;
+    margin-bottom: 0.3em;
+    margin-right: 1em;
 
 }
 
@@ -933,7 +930,7 @@ restante {
   
 }
 
-main, header, footer{
+main, header{
   border: 1px black solid;
   border-color: #C0C0C0;
   background-color:#B0C4DE;
