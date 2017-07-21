@@ -581,21 +581,18 @@ footer {
     color: black!important;
 }
 .creditos {
-    margin-top: 3m;
+    margin-top: 3em;
     font-size: 0.8em;
 }
 
 .creditos3 {
-    margin-top: 3m;
+    margin-top: 3em;
     font-size: 0.8em;
     margin-left: 0.3em;
 }
 
 .creditos2 {
-    margin-top: 3m;
-    margin-left: 0.3em;
     font-size: 0.7em;
-    padding-top: 3em;
 }
 
 .info {
