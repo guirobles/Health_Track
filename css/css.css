@@ -762,7 +762,7 @@ footer {
 #centeredmenu ul li a {
    display:block;
    margin:0 0 0 0px;
-   padding:3px 10px;
+   padding:1px 10px;
    background:#00A651;
    text-decoration:none;
    line-height:0.1em;
@@ -900,6 +900,10 @@ restante {
 
 .navbar-nav li {
     display: inline !important;
+    @media (max-width: @screen-sm-min) { 
+        font-size: 0.3em!important;
+        display: inline !important;
+    }    
 }
 
 
@@ -949,42 +953,6 @@ main, header{
 }
 
 
-}
 
 
-    <form id="login" method="post">
-                <fieldset>
-                <label for="email">E-mail: </label>
-                <input type="email" name="email" placeholder="E-mail" required />  
-                <input type="submit" />
-                <label for="senha">Senha: </label>
-                <input type="password" id="senha">
-                <input type="submit" />  
-                </fieldset>  
-            </form>
-
- <div class="row">
-          <footer>Rodapé</footer>          
-        </div>  
-      </div>  
-
-
-<div class="row menu">
-              <div class="container-md-10">
-                <div class="imgmenu hover">
-                    <a href="dashboard.html"> 
-                    <img src="../img/house-noattribution.svg" alt="home" /> 
-                    </a>     
-                </div>
-                
-              </div>
-
-
-  <ul class="nav navbar-nav">
-                      <li class="active"><a href="dashboard.html"><img src="../img/house-noattribution.svg" alt="home" /></a></li>
-                      <li class="nav navbar-nav"><a href="perfil.html"><img src="../img/user-noattribution.svg" alt="perfil" /></a></li>    
-                      <li class="nav navbar-nav"><a href="perfil.html"><img src="../img/scale-noattribution.svg" alt="home" /></a></li> 
-                      <li class="nav navbar-nav"><a href="alimentacao.html"><img src="../img/food-noattribution3.png" alt="home" /></a></li> 
-                      
-                  </ul>
               
