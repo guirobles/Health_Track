@@ -471,7 +471,7 @@ padding-left: 0px;
 }
 
 .navcolor {
-    background-color:rgba(0, 166, 81, 0.7);
+    background-color:white;
 }
 
 
@@ -776,6 +776,7 @@ footer {
    width:100%;
    overflow:hidden;
    position:relative;
+   border-color: white;
 }
 #centeredmenu ul {
    clear:left;
@@ -784,6 +785,7 @@ footer {
    padding:0;
    position:relative;
    left:50%;
+   border: none;
 
 }
 #centeredmenu ul li {
@@ -794,28 +796,36 @@ footer {
    padding:0px;
    position:relative;
    right:50%;
+   border: black 10px;
 }
 #centeredmenu ul li a {
    display:block;
    margin:0 0 0 0px;
    padding:15px 10px;
-   background:rgba(0, 166, 81);
+   border: black 10px;
+   background:white;
    text-decoration:none;
    line-height:0.1em;
 }
 #centeredmenu ul li a:hover {
-   background:white;
-   color:#fff;
+   background:#4CC085;
+   color:white;
 }
 #centeredmenu ul li a.active,
 #centeredmenu ul li a.active:hover {
-   color:#fff;
+   color:#4CC085;
    font-weight:bold;
+}
+
+.navbar-toggle {
+  border: none;
+  outline: none;
 }
 
 .limenu {
     display: inline-block;
     float: none;
+    border: none;
 }
 
 .sizeimg {
@@ -936,12 +946,17 @@ restante {
 
 .navbar-nav li {
     display: inline !important;
+    border: solid #ccc;
   
 }
 
+.navbar-nav li a {
+    border: solid #ccc;
+  
+}
 
 .navbar-nav>li:hover {
-    background-color: white;
+    background-color: #4CC085;
     transition: all 3s. ease-in-out;
 }
 
