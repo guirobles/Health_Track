@@ -630,6 +630,7 @@ footer {
 
 .creditos2 {
     font-size: 0.7em;
+    margin-left: 1em;
 }
 
 .info {
@@ -931,11 +932,7 @@ restante {
     border-top: solid #666666;
     border-bottom: none;
     border-left: none;
-    border-right: none;
-
-   
-    
-    
+    border-right: none;   
 }
 
 .span>img>src {
