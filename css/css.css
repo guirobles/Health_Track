@@ -1,13 +1,10 @@
-/* 
-Generic Styling, for Desktops/Laptops 
-*/
+
 table { 
   width: 100%; 
   border-collapse: collapse;
     border-left: solid 6px white !important;
   margin: auto; }
 }
-/* Zebra striping */
 
 th { 
   background: inherit; 
@@ -485,23 +482,23 @@ padding-left: 0px;
 
  }
  .my_form {
-	margin-top: 5rem;
+	margin-top: 230px;
 	background-color: #fff;
 	box-shadow: 1px 2px 15px -2px rgba(0,0,0,.8);
-
+    border-color: solid black 100px;
 	border-radius: .5rem;
  }
- .my_form .form-control{
-	height: auto;
-	padding:1rem;
- }
- .my_form .form-control:first-of-type{
-	border-bottom-right-radius: 0;
-	border-bottom-left-radius: 0;
- }
- .my_form .form-control:last-of-type{
-	border-top-right-radius: 0;
-	border-top-left-radius: 0;
+
+ .bodylogin {
+	background-image: url(../img/background-desktop1.jpg);
+    background-size: cover;
+    background-size: contain;
+    background-position: top;
+    background-color: #39383e;
+    z-index: 0;
+    display: inline;
+    
+   
  }
 
 }
@@ -612,6 +609,7 @@ hea {
     color: red;
     text-align: right;
     float: right;
+    font-size: 0.25em;
 }
 
 .btncad {
@@ -1025,6 +1023,14 @@ main, header{
 }
 
 
+.mainindex {
+    border: none;
+    background: none;
+}
 
+#conectado {
+    font-size: 0.3em;
+    float: left;
+}
 
               
