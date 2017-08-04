@@ -12,24 +12,25 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/css.css">  
   </head>
-  <body>
+ <body>
       <!-- Container Principal -->
-      <div class="container-fluid white">
-          <div class="mainheader row">
+      <div class="container-fluid col-xs-12 col-md-12">
+            <header class="mainheader">HEALTH TRACK
+              </header>    
+          <main class="semborda">
+              <span><img src="../img/bear-noattribution.svg" class="bear"/></span>
               
-            <span><a href="info.html"><img src="../img/info.png" class="info" alt="info" /></a></span>
-            <header class="mainheader text-center"><span><img src=../img/logo.svg class="logo2"/></span>HEALTH TRACK
-              </header>  
-          </div>
-          <main class="row semborda">
-              <p id="recuperar">Digite seu e-mail no campo abaixo para receber uma nova senha: </p>
+              <p id="recuperar">Digite seu e-mail no campo abaixo para receber uma nova senha: </p><br>
+              <div>
               <form class="form">
-              <div class="form-group input-group col-xs-12 col-md-12" id="recuperar">
+              <div class="form-group input-group row" id="esqsenha">
                             <label for="inputEmail" class="input-group-addon">@</label>
-                        <input type="email" id="senha1" class="form-control" placeholder="Digite o seu email" required autofocus></div><span>
-              <button type="submit" class="btn btn-default" id="botao3" >Nova Senha</button>
-              <img src="../img/bear-noattribution.svg" class="bear"/></span></form>
-              
+                        <input type="email" class="form-control" placeholder="Digite o seu email" required autofocus></div><br>
+                  </div>
+            <span>
+              <button type="submit" class="btn btn-default" id="botao3" >Nova Senha</button></span>
+              </form>
+   
           
           </main>
             <script src="../js/jquery-3.js"></script>

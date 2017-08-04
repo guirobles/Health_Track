@@ -341,7 +341,10 @@ footer {
     background-color: #00a651;
     color: white;
     font-weight: bold; 
-    font-size: 0.4em;
+    font-size: 0.3em;
+    float: center;
+    margin-top: 15px;
+
     
 }
 
@@ -501,6 +504,7 @@ padding-left: 0px;
    
  }
 
+
 }
 
 @media screen and (max-width: 320px) {
@@ -578,19 +582,18 @@ hea {
 }
 
 #recuperar {
-    font-size: 0.5em;
+    font-size: 0.4em;
     text-align: center;
-    margin-left: 15px;
-    margin-top: 25px;
-    float: left;
+    margin-top: 50px;
+    float: center;
+
 }
 
 .bear {
-    float: right;
-    display: block;
-    max-width: 15%;
+    float: center;
+    max-width: 80px;
     margin-top: 1px;
-    margin-right: 100px;
+
 }
 
 .alimentacao {
@@ -1032,5 +1035,14 @@ main, header{
     font-size: 0.3em;
     float: left;
 }
+
+#esqsenha {
+ float: center;
+ margin-left: 15px;
+ margin-right: 15px;
+ border: black 10px;;
+
+}
+
 
               
