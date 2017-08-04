@@ -1040,7 +1040,7 @@ main, header{
  float: center;
  margin-left: 15px;
  margin-right: 15px;
- border: black 10px;;
+ border: inset black 5px;;
 
 }
 
