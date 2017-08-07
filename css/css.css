@@ -52,7 +52,7 @@ greenborder {
 label.error{background-color: black; color:white; font-weight: bold; 
     margin-top: 0.5em;
     padding: 0 15px;
-    font-size: 0.8em;
+    font-size: 0.5em;
 }
 
 
@@ -1043,5 +1043,15 @@ main, header{
 
 }
 
+#pesfig {
+    font-size: 0.3em;
+    float: center;
+}
+
+#apesf {
+    height: auto;
+    max-width: 4em;
+    float: center;
+}
 
               

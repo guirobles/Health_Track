@@ -31,10 +31,10 @@
                 required: true,
                 maxlength: 4
             },
-            inputEmail:{
+            email:{
                 required: true,
             },
-            email:{
+            email1:{
                 required: true,
             },
             senha1: {
@@ -74,8 +74,7 @@
             email:{
                 required: "Este campo é obrigatório!"
             },
-
-            inputEmail:{
+            email1:{
                 required: "Este campo é obrigatório!"
             },
             senha1: {
