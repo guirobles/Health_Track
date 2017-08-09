@@ -1,4 +1,11 @@
   $(document).ready(function() {
+      
+    var thecolor = $('#centeredmenu').css("#4CC085");
+    $("#centeredmenu").mouseover(function() {
+    $(this).css({'color':thecolor});
+    });       
+    $('#centeredmenu').click(thecolor).hover(thecolor);
+
   
 
     $("form").validate({
@@ -20,6 +27,9 @@
             data:{
                 required: true
             
+            },
+            genero:{
+                required: true
             },
             peso:{
                 required: true,
@@ -71,10 +81,16 @@
                 number: true,
             
             },
+            peso:{
+                required: "Este campo é obrigatório!"
+            },
             email:{
                 required: "Este campo é obrigatório!"
             },
             email1:{
+                required: "Este campo é obrigatório!"
+            },
+            genero:{
                 required: "Este campo é obrigatório!"
             },
             senha1: {

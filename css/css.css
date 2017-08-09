@@ -52,7 +52,7 @@ greenborder {
 label.error{background-color: black; color:white; font-weight: bold; 
     margin-top: 0.5em;
     padding: 0 15px;
-    font-size: 0.5em;
+    font-size: 0.45em;
 }
 
 
@@ -829,15 +829,11 @@ footer {
    text-decoration:none;
    line-height:0.1em;
 }
-#centeredmenu ul li a:hover {
-   background:#4CC085;
+#centeredmenu ul li:hover > a {
+   background-color:#4CC085;
    color:white;
 }
-#centeredmenu ul li a.active,
-#centeredmenu ul li a.active:hover {
-   color:#4CC085;
-   font-weight:bold;
-}
+
 
 .navbar-toggle {
   border: none;
