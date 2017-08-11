@@ -299,7 +299,7 @@ footer {
 
 .engrenagem {
     padding-left: 2rem;
-    color: white;
+    color: black;
 }
 
 .borda {
@@ -689,8 +689,9 @@ footer {
     font-size: .55em;
     margin-top: 25px;
     align-content: center;
+    border-radius: 30px;
 
-  
+
     
 }
 
@@ -729,20 +730,24 @@ footer {
 }
 
 .underline {
-    text-decoration: underline !important;
+    color: darkblue;
     font-weight: bold;
-    font-size: .5em;
+    font-size: .58em;
     text-align: center;
     align-content: center;
     
 }
 
 .underline2 {
-    text-decoration: underline !important;
+    color: darkred;
     font-weight: bold;
-    font-size: .9em;
+    font-size: 1em;
     text-align: center;
     align-content: center;
+    margin-bottom: 30px;
+    border-radius: 30px;
+   
+
     
 }
 
@@ -751,6 +756,7 @@ footer {
     font-size: .5em;
     text-align: center;
     align-content: center;
+    color: darkblue;
     
 }
 
@@ -901,6 +907,7 @@ footer {
     align-content: center;
     margin-top: 70px;
     text-align: center;
+    border-radius: 30px; 
     
 }
 
@@ -928,6 +935,8 @@ footer {
 .mainds {
     background-color: #e7e7e7;
     height: 100%;
+    border: none;
+
 }
 
 
@@ -954,13 +963,13 @@ restante {
     margin-top: 50px;
 }
 .h4ds {
-    text-align: left !important;
+    text-align: center !important;
     font-weight: bold;
     
 }
 
 #age {
-    text-align: left;
+    text-align: center;
 }
 
 .navbar-nav li {
@@ -1050,4 +1059,9 @@ main, header{
     float: center;
 }
 
+#icondash {
+    width: 1em;
+    height: auto;
+    float: left;
+}
               
