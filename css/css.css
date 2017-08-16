@@ -299,7 +299,12 @@ footer {
 
 .engrenagem {
     padding-left: 2rem;
-    color: black;
+    color: white;
+}
+
+#engrenagem2 {
+    padding-left: 2rem;
+    color: black!important;
 }
 
 .borda {
@@ -713,7 +718,7 @@ footer {
     float: center;
     text-align: center;
     text-decoration: none;
-    font-size: .4em;
+    font-size: .44em;
     margin-top: 1em;
     margin-left: auto;
     
@@ -993,6 +998,8 @@ restante {
     border: none;
     background-color: white;
 }
+
+
 .cadastro {
     font-size: 0.4em !important;
     font-family: sans-serif !important;
