@@ -69,10 +69,7 @@ label.error{background-color: black; color:white; font-weight: bold;
 
 }
 
-.transparente {
-    color: transparent;
 
-}
 
 .tabelaheadera {
     font-size: 0.4em !important;
@@ -483,7 +480,7 @@ padding-left: 0px;
 
  
 
- .navbar .navbar-nav  li a img {
+ .navbar .nav li a img {
 
       width: 20px;
 
