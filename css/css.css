@@ -475,7 +475,7 @@ padding-left: 0px;
 }
 
 .navcolor {
-    background-color:white;
+    background-color:#00A651;
 }
 
 
@@ -807,6 +807,7 @@ footer {
    width:100%;
    overflow:hidden;
    position:relative;
+    
 
 
 
@@ -818,6 +819,7 @@ footer {
    padding:0;
    position:relative;
    left:50%;
+    
 
 
 }
@@ -830,18 +832,19 @@ footer {
    position:relative;
    right:50%;
    border-top: black 10px;
+    
 }
 #centeredmenu ul li a {
    display:block;
    margin:0 0 0 0px;
    padding:15px 10px;
    border: black 10px;
-   background:white;
+   background:whi;
    text-decoration:none;
-   line-height:0.1em;
+   line-height:0.6em;
 }
 #centeredmenu ul li:hover > a {
-   background-color:#4CC085;
+   background-color:white;
    color:white;
 }
 
@@ -958,10 +961,8 @@ restante {
 
 .navbar {
     text-align: center !important;
-    border-top: solid #666666;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;   
+    border: solid 2px #666666;
+  
 }
 
 .span>img>src {
@@ -990,7 +991,7 @@ restante {
 }
 
 .navbar-nav>li:hover {
-    background-color: #4CC085;
+    background-color: white;
     transition: all 3s. ease-in-out;
 }
 
