@@ -37,6 +37,9 @@
             pressaos:{
                 required: true,
             },
+            pressaod:{
+                required: true,
+            },
             caloria:{
                 required: true,
                 maxlength: 4
@@ -84,6 +87,15 @@
             peso:{
                 required: "Este campo é obrigatório!"
             },
+            
+            pressaos:{
+                required: "Este campo é obrigatório!"
+            },
+            
+             pressaod:{
+                required: "Este campo é obrigatório!"
+            },
+            
             email:{
                 required: "Este campo é obrigatório!"
             },

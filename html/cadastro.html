@@ -1,89 +1,74 @@
 <!Doctype html>
 <html lang="pt-br">
-
-  <head>
-    <meta charset="utf-8">  
-    <meta name="description" content="BOOTSTRAP">
-    <meta name="keywords" content="HealthTrack,saúde,web,aplicação,monitorar,pressão,peso,imc,atividade">
-    <meta name="author" content="Guilherme Robles">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <title>Cadastro</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/css.css">  
-  </head>
-  <body>
-      <!-- Container Principal -->
-      <div class="container-fluid col-xs-12 col-md-12">
-            <header class="mainheader">HEALTH TRACK
-              </header>  
-  
-          <h2 id="cadastro">CADASTRO</h2><br> 
-          <main class="maincd">
-              
-            <form action="dashboard.html" class="form">
-                <div class="cadastro">
-                    <div class="form-group">
+    <head>
+        <meta charset="utf-8">  
+        <meta name="description" content="BOOTSTRAP">
+        <meta name="keywords" content="HealthTrack,saúde,web,aplicação,monitorar,pressão,peso,imc,atividade">
+        <meta name="author" content="Guilherme Robles">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/css.css">  
+    </head>
+    <body>
+        <div class="container-fluid col-xs-12 col-md-12">
+            <header class="mainheader">HEALTH TRACK</header>  
+            <h2 id="cadastro">CADASTRO</h2><br> 
+            <main class="maincd">      
+                <form action="dashboard.html" class="form">
+                    <div class="cadastro">
+                        <div class="form-group">
                             <label for="nome">Nome:</label>
                             <input type="text" class="form-control "id="nome" name="nome" placeholder="Digite o seu nome" required>
-                    </div>  
-                    <div class="form-group">
+                        </div>  
+                        <div class="form-group">
                             <label for="dtnascimento">Data de Nascimento: </label>
                             <input type="date" class="form-control" id="dtnascimento" name="dtnascimento" placeholder="dd/mm/aaaa" required>
-                    </div>  
-                    <div class="form-group">
+                        </div>  
+                        <div class="form-group">
                             <label for="altura">Altura: </label>
                             <input type="number" step="0.01" min="0" max="3" class="form-control" id="altura" name="altura" placeholder="Em metros" required>
-                    </div>    
-                    <div class="form-group">
+                        </div>    
+                        <div class="form-group">
                             <label for="genero" id="genero">Gênero: </label><br>
                             <label for="genero"><input type="radio" name="genero" required>Masculino</label><br>    
                             <label for="genero"><input type="radio" name="genero" required>Feminino</label>  
-                    </div> 
-                    <div class="form-group">         
-                    <label for="email1" id="email1">Email: </label>
-                    <div class="form-group input-group">
-                            <label for="inputEmail" class="input-group-addon">@</label>
-                        <input type="email" id="inputEmail" class="form-control" name="email1" placeholder="Digite o seu email" required>
-                            
-                    </div>  </div>
-                    <div class="form-group">
-                    <label for="senha" id="senha">Senha*:</label>
-                     <div class="form-group input-group">  
-                        <label for="senha1" class="input-group-addon glyphicon glyphicon-lock"></label>
-                         <input type="password" id="senha1" class="form-control" name="senha1" placeholder="Sua senha deverá ter ao menos 6 caracteres, combinando letras e números" required pattern="^(?=.*\d)(?=.*[a-z])(?!.*\s).*$"></div></div>
-                     <div class="form-group">
-                     <label for="senha2">Confirme a senha*:</label>
-                     <div class="form-group input-group">  
-                        <label for="senha" class="input-group-addon glyphicon glyphicon-lock"></label>
-                         <input type="password" class="form-control" name="senha2" placeholder="Sua senha deverá ter ao menos 6 caracteres, combinando letras e números" required pattern="^(?=.*\d)(?=.*[a-z])(?!.*\s).*$"></div></div> 
-                 
-                        <p class="alertasenha">* A senha deverá ter no mínimo 6 caracteres, combinando letras e números</p>
-                 
-                    <div class="checkbox">    
+                        </div> 
+                        <div class="form-group">         
+                            <label for="email1" id="email1">Email: </label>
+                            <div class="form-group input-group">
+                                <label for="inputEmail" class="input-group-addon">@
+                                </label>
+                                <input type="email" id="inputEmail" class="form-control" name="email1" placeholder="Digite o seu email" required>
+                            </div>  
+                        </div>
+                        <div class="form-group">
+                            <label for="senha" id="senha">Senha*:</label>
+                            <div class="form-group input-group">  
+                                <label for="senha1" class="input-group-addon glyphicon glyphicon-lock"></label>
+                                <input type="password" id="senha1" class="form-control" name="senha1" placeholder="Sua senha deverá ter ao menos 6 caracteres, combinando letras e números" required pattern="^(?=.*\d)(?=.*[a-z])(?!.*\s).*$"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="senha2">Confirme a senha*:</label>
+                            <div class="form-group input-group">  
+                                <label for="senha" class="input-group-addon glyphicon glyphicon-lock"></label>
+                                <input type="password" class="form-control" name="senha2" placeholder="Sua senha deverá ter ao menos 6 caracteres, combinando letras e números" required pattern="^(?=.*\d)(?=.*[a-z])(?!.*\s).*$"></div></div>        
+                        <p class="alertasenha">* A senha deverá ter no mínimo 6 caracteres, combinando letras e números</p> 
+                        <div class="checkbox">    
                             <label><input type="checkbox"> Continuar conectado</label>
-                    </div><br>
-                    <div class="btn-inline-group">
-                        <button type="submit" class="btn btn-default" id="botao1" >Confirmar os meus dados</button><br><br><button type="reset" class="btn btn-default" id="botao2">Limpar dados</button>
-                    </div>    
-              </div>      
-            </form>         
-          </main><br><br>
-  
-          <footer class="col-xs-12 col-md-12"><img src="../img/copyright.svg" class="info" alt="info" /><span class="creditos"><a href=”mailto:*remova*robles.guilherme@gmail.com”>Guilherme Robles</a></span><span class="creditos3">2017</span><span class="creditos2">Todos os direitos reservados.</span></footer>
-
-      
-
-       <script src="../js/jquery-3.js"></script>
-       <script src="../js/jquery.validate.min.js"></script>
-       <script src="../js/js.js"></script>
-       <script src="../js/check.js"></script>
-          </div>
+                        </div><br>
+                        <div class="btn-inline-group">
+                            <button type="submit" class="btn btn-default" id="botao1" >Confirmar os meus dados</button><br><br><button type="reset" class="btn btn-default" id="botao2">Limpar dados</button>
+                        </div>    
+                    </div>      
+                </form>         
+            </main><br><br>
+            <footer class="col-xs-12 col-md-12"><img src="../img/copyright.svg" class="info" alt="info" /><span class="creditos"><a href=”mailto:*remova*robles.guilherme@gmail.com”>Guilherme Robles</a></span><span class="creditos3">2017</span><span class="creditos2">Todos os direitos reservados.</span></footer>
+            <script src="../js/jquery-3.js"></script>
+            <script src="../js/jquery.validate.min.js"></script>
+            <script src="../js/js.js"></script>
+            <script src="../js/check.js"></script>
+        </div>
     </body>
 </html>
-  
-
-
-       
-      
-     

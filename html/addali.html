@@ -1,104 +1,95 @@
 <!Doctype html>
 <html lang="pt-br">
-
-  <head>
-    <meta charset="utf-8">  
-    <meta name="description" content="BOOTSTRAP">
-    <meta name="keywords" content="HealthTrack,saúde,web,aplicação,monitorar,pressão,peso,imc,atividade">
-    <meta name="author" content="Guilherme Robles">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <title>Adicionar Alimentação</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/css.css">  
-  </head>
-   <body>
-      <!-- Container Principal -->
-      <div class="container-fluid col-xs-12 col-md-12">
+    <head>
+        <meta charset="utf-8">  
+        <meta name="description" content="BOOTSTRAP">
+        <meta name="keywords" content="HealthTrack,saúde,web,aplicação,monitorar,pressão,peso,imc,atividade">
+        <meta name="author" content="Guilherme Robles">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <title>Adicionar Alimentação</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/css.css">  
+    </head>
+    <body>
+        <div class="container-fluid col-xs-12 col-md-12">
             <header class="mainheader">HEALTH TRACK
-              </header>  
-
-          <div id="centeredmenu">
-              <nav class="navbar navbar-default col-xs-12 col-md-12 navcolor">
-                  <ul class="nav navbar-nav text-center">
-                      <li><a href="dashboard.html"><img src="../img/house-noattribution.svg"  /></a></li>
-                      <li><a href="usuario.html"><img src="../img/user-noattribution.svg" /></a></li>    
-                      <li><a href="peso.html"><img src="../img/scale-noattribution.svg" /></a></li>  
-                      <li><a href="alimentacao.html"><img src="../img/cutlery.svg" /></a></li>
-                      <li><a href="atividade.html"><img src="../img/biking.svg" /></a></li>
-                      <li><a href="pressao.html"><img src="../img/heart-icon.svg" /></a>
-                      <li><a href="../index.html"><img src="../img/shutdown-noattribution.svg" /></a></li>  
-                  </ul>
+            </header>  
+            <div id="centeredmenu">
+                <nav class="navbar navbar-default col-xs-12 col-md-12 navcolor">
+                    <ul class="nav navbar-nav text-center">
+                        <li><a href="dashboard.html"><img src="../img/house-noattribution.svg"  /></a></li>
+                        <li><a href="usuario.html"><img src="../img/user-noattribution.svg" /></a></li>    
+                        <li><a href="peso.html"><img src="../img/scale-noattribution.svg" /></a></li>  
+                        <li><a href="alimentacao.html"><img src="../img/cutlery.svg" /></a></li>
+                        <li><a href="atividade.html"><img src="../img/biking.svg" /></a></li>
+                        <li><a href="pressao.html"><img src="../img/heart-icon.svg" /></a>
+                        <li><a href="../index.html"><img src="../img/shutdown-noattribution.svg" /></a></li>  
+                    </ul>
                 </nav>
-          </div>
-                <header class="row white semborda"><img src="../img/cutlery-icon.svg" class="iconpage"/><p class="head">ALIMENTAÇÃO</p></header>
-             <main class="semborda col-xs-12 col-md-12">  
-                   <form action="alimentacao.html" class="form" id="formcd">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td class="tdali"><img src="../img/cutlery-icon3.svg" class="iconpage3"/></td>
-                                </tr>
-                                <tr>
-                                    <td class="tdali"></td>
-                                </tr>
-                                <tr>
-                                    <td class="tdali">DATA E HORÁRIO: <span class="tdali2"><input type="date" name="data" required></span></td>
-                                </tr>
-                                <tr>
-                                    <td class="tdali"></td>
-                                </tr>
-                                <tr>
-                                    <td class="tdali"></td>
-                                </tr>
-                                <tr>
-                                    <td class="tdali">TIPO: <span class="tdali2"><select id="tpalimentacao" name="tpalimentacao" required>
+            </div>
+            <header class="row white semborda"><img src="../img/cutlery-icon.svg" class="iconpage"/><p class="head">ALIMENTAÇÃO</p></header>
+            <main class="semborda col-xs-12 col-md-12">  
+                <form action="alimentacao.html" class="form" id="formcd">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="tdali"><img src="../img/cutlery-icon3.svg" class="iconpage3"/></td>
+                            </tr>
+                            <tr>
+                                <td class="tdali"></td>
+                            </tr>
+                            <tr>
+                                <td class="tdali">DATA E HORÁRIO: <span class="tdali2"><input type="date" name="data" required></span></td>
+                            </tr>
+                            <tr>
+                                <td class="tdali"></td>
+                            </tr>
+                            <tr>
+                                <td class="tdali"></td>
+                            </tr>
+                            <tr>
+                                <td class="tdali">TIPO: <span class="tdali2"><select id="tpalimentacao" name="tpalimentacao" required>
                                     <option value="C">Café da Manhã</option>
                                     <option value="A">Almoço</option>
                                     <option value="J">Jantar</option>
                                     <option value="L">Lanche Leve</option>
                                     <option value="F">Fruta</option>
-                                        </select></span></td>
-                                </tr>
-                                <tr>
-                                    <td class="tdali"></td>
-                                </tr>
-                                <tr>
-                                    <td class="tdali"></td>
-                                </tr>
-                                <tr>
-                                    <td class="tdali">DESCRIÇÃO: <span class="tdali2"><input type="text" name="desalimentacao" placeholder="Descrição da alimentação"></span>
-                                    </td> 
-                                </tr>
-                                 <tr>
-                                    <td class="tdali"></td>
-                                </tr>
-                                <tr>
-                                    <td class="tdali"></td>
-                                </tr>
-                                <tr>
-                                    <td class="tdali">CALORIAS: <span class="tdali2"><input type="number" name="caloria" id="caloria" required></span></td>     
-                                </tr>
-                                 <tr>
-                                    <td class="tdali"></td>
-                                </tr>        
-                            </tbody>
-  
-    
-                    
-                        </table>
-                    </form>
-                       <footer class="semborda"><form action="alimentacao.html"><button type="submit" class="btn btn-default" id="botaoaddal">Nova Alimentação</button></form>
-                  </footer>
+                                    </select></span></td>
+                            </tr>
+                            <tr>
+                                <td class="tdali"></td>
+                            </tr>
+                            <tr>
+                                <td class="tdali"></td>
+                            </tr>
+                            <tr>
+                                <td class="tdali">DESCRIÇÃO: <span class="tdali2"><input type="text" name="desalimentacao" placeholder="Descrição da alimentação"></span>
+                                </td> 
+                            </tr>
+                            <tr>
+                                <td class="tdali"></td>
+                            </tr>
+                            <tr>
+                                <td class="tdali"></td>
+                            </tr>
+                            <tr>
+                                <td class="tdali">CALORIAS: <span class="tdali2"><input type="number" name="caloria" id="caloria" required></span></td>     
+                            </tr>
+                            <tr>
+                                <td class="tdali"></td>
+                            </tr>        
+                        </tbody>
+                    </table>
+                </form>
+                <footer class="semborda"><form action="alimentacao.html"><button type="submit" class="btn btn-default" id="botaoaddal">Nova Alimentação</button></form>
+                </footer>
             </main>
             <footer class="col-xs-12 col-md-12"><img src="../img/copyright.svg" class="info" alt="info" /><span class="creditos"><a href=”mailto:*remova*robles.guilherme@gmail.com”>Guilherme Robles</a></span><span class="creditos3">2017</span><span class="creditos2">Todos os direitos reservados.</span></footer>
-   
-
-          </div>
-     <script src="../js/jquery-3.js"></script>
-       <script src="../js/jquery.validate.min.js"></script>
-      <script src="../js/additional-methods.min.js"></script>
-       <script src="../js/js.js"></script>
+        </div>
+        <script src="../js/jquery-3.js"></script>
+        <script src="../js/jquery.validate.min.js"></script>
+        <script src="../js/additional-methods.min.js"></script>
+        <script src="../js/js.js"></script>
     </body>
 </html>
-
