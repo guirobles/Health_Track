@@ -1111,3 +1111,7 @@ main, header{
 .tableleft {
     margin-right: 5px;
 }
+
+.glyphicon-trash {
+    text-align: left;
+}
