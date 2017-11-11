@@ -1108,10 +1108,20 @@ main, header{
 
 }
 
+.linhaali {
+  
+  background-color: #FF7F00;
+    font-size: 1em;
+    border: none;
+
+}
+
 .tableleft {
     margin-right: 5px;
 }
 
-.glyphicon-trash {
-    text-align: left;
+#tpalimentacao {
+    height: 2em;
+    font-weight: bolder;
 }
+
