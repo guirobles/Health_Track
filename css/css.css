@@ -542,6 +542,9 @@ padding-left: 0px;
 	padding:2rem;
 	border-radius: .5rem;
 }
+    .linha {
+        font-size: 2em;
+    }
 
 }
 
