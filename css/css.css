@@ -177,11 +177,20 @@ tr {
 .tdali2 {
   
   font-weight: bold;  
-  font-size: 1.3em; 
+  font-size: 1.2em; 
   border: none;
   background-color: #FF7F00;
   color: white;
     text-align: right;
+}
+
+.tdali3 {
+  
+  font-weight: bold;  
+  font-size: 1em; 
+  border: none;
+  background-color: #FF7F00;
+  color: black;
 }
 
 .tdatv {
@@ -199,6 +208,16 @@ tr {
   background-color: #993399;
   color: black;        
 }
+
+.tdatv3 {
+  font-weight: bold;  
+  font-size: 1.2em; 
+  border: none;
+  background-color: #993399;
+  color: white;    
+    text-align: right;
+}
+
 
 .tdpre {
   font-weight: bold;  
@@ -1097,7 +1116,7 @@ main, header{
 
 .linha {
   
-  background-color: #f2f2f2; 
+  background-color: #f8f5c6; 
   font-size: 1em;
 }
 
@@ -1129,4 +1148,10 @@ main, header{
     border-bottom: 5px solid black!important;
     background-color: #FF7F00;
 }
+
+.bordaali2 {
+    border-bottom: 5px solid white!important;
+    background-color: #FF7F00;
+}
+
 
