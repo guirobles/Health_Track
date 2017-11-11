@@ -1126,6 +1126,6 @@ main, header{
 }
 
 .bordaali {
-    border-bottom: 5px groove black!important;
+    border-bottom: 5px solid black!important;
 }
 
