@@ -1125,3 +1125,7 @@ main, header{
     font-weight: bolder;
 }
 
+.bordaali {
+    border-bottom: 5px groove black!important;
+}
+
