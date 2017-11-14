@@ -152,7 +152,7 @@ tr {
 
 .tdpeso22 {
   
-  font-size: 1.3em; 
+  font-size: 1.2em; 
   color: white!important;
   font-weight: bold;
   text-align: right;
@@ -195,6 +195,17 @@ tr {
   color: white!important;
   font-weight: bold;
   text-align: center;
+}
+
+.tdali22 {
+  
+  font-size: 1.2em; 
+  color: white;
+  font-weight: bold;
+  background-color: #FF7F00;
+  border: none;
+  text-align: right;
+    
 }
 
 .tdali3 {
@@ -356,6 +367,7 @@ footer {
     color: white;
     font-size: 1.2em;
     border: none!important;
+    text-align: right;
 }
 
 .lixeira {
