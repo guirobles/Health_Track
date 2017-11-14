@@ -142,23 +142,29 @@ tr {
 
 .tdpeso2 {
   
-
-  font-size: 1.2em; 
-  border: none;
-  background-color: #0169CE;
-  color: white;
+  font-size: 0.45em; 
+  color: white!important;
   font-weight: bold;
-    text-align: right;     
+  text-align: center;
+
+   
 }
 
 .tdpeso3 {
   
+  background-color: #0169CE;
+      
+}
 
-  font-size: 0.9em; 
+.tdpeso4 {
+  
+
+  height: 1.2em;
   border: none;
   background-color: #0169CE;
-  color: black;
-  font-weight: bold;  
+
+
+
       
 }
 
@@ -173,12 +179,10 @@ tr {
 
 .tdali2 {
   
-  font-weight: bold;  
-  font-size: 1.2em; 
-  border: none;
-  background-color: #FF7F00;
-  color: white;
-    text-align: right;
+  font-size: 0.45em; 
+  color: white!important;
+  font-weight: bold;
+  text-align: center;
 }
 
 .tdali3 {
@@ -332,9 +336,17 @@ footer {
 
 .engrenagem {
     color: white;
-    font-size: 1.2em;
-    
+    font-size: 0.5em;
+    border: none!important;
 
+    
+}
+
+.lixeira {
+    color: white;
+    font-size: 0.5em;
+    border: none!important;
+    
 }
 
 #engrenagem2 {
@@ -840,6 +852,12 @@ footer {
     height: auto;
 }
 
+.iconpage4 {
+    text-align: center;
+    width: 1.1em;
+    height: auto;
+}
+
 .iconcancel {
     text-align: center;
     width: 1.4em;
@@ -852,7 +870,7 @@ footer {
     text-align: center;
     width: 1.4em;
     height: auto; 
-    margin-right: 0.5em;
+    margin-right: 1.7em;
 }
 
 .ula {
@@ -952,6 +970,7 @@ footer {
 
 .white {
     background-color: white!important;
+    border: none!important;
 }
 
 .direita {
@@ -1078,11 +1097,7 @@ restante {
 }
 
 
-.row{
-  
-  margin-bottom: 20px;
-  
-}
+
 
 main, header{
   border: 1px black solid;
@@ -1133,15 +1148,34 @@ main, header{
 .linha {
   
   background-color: #e8e5dd; 
-  font-size: 1em;
+  font-size: 0.4em;
     font-weight: bold;
+    color: black;
+    text-align: center;
+
 }
 
 .linha2 {
   
   background-color: white;
-    font-size: 1em;
+    font-size: 0.4em;
     font-weight: bold;
+color: black;
+    text-align: center;
+
+}
+
+.linhasemcor {
+    font-size: 0.4em;
+  background-color: white;
+  color: white!important;
+
+}
+
+.linhasemcor2 {
+    font-size: 0.4em;
+  background-color: #e8e5dd;
+  color: #e8e5dd!important;
 
 }
 
@@ -1184,4 +1218,15 @@ main, header{
     background-color: #FF7F00;
 }
 
+.backpeso {
+    background-color: #0169CE;
+    color: #0169CE;
+    border: none;
+}
+
+.backali {
+    background-color: #FF7F00;
+    color: #FF7F00;
+    border: none;
+}
 
