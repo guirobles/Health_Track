@@ -150,6 +150,18 @@ tr {
    
 }
 
+.tdpeso22 {
+  
+  font-size: 1.3em; 
+  color: white!important;
+  font-weight: bold;
+  text-align: right;
+  background-color: #0169CE;
+  border: none;
+
+   
+}
+
 .tdpeso3 {
   
   background-color: #0169CE;
@@ -338,8 +350,12 @@ footer {
     color: white;
     font-size: 0.5em;
     border: none!important;
+}
 
-    
+.engrenagem2 {
+    color: white;
+    font-size: 1.2em;
+    border: none!important;
 }
 
 .lixeira {
@@ -1155,6 +1171,16 @@ main, header{
 
 }
 
+.linha11 {
+  
+  background-color: #e8e5dd; 
+  font-size: 1em;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+
+}
+
 .linha2 {
   
   background-color: white;
@@ -1162,6 +1188,16 @@ main, header{
     font-weight: bold;
 color: black;
     text-align: center;
+
+}
+
+.linha22 {
+  
+  background-color: white;
+    font-size: 1em;
+    font-weight: bold;
+color: black;
+    text-align: left;
 
 }
 
