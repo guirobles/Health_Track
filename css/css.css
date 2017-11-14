@@ -1193,6 +1193,15 @@ main, header{
 
 }
 
+.linhaadd {
+  
+    font-size: 0.4em;
+    font-weight: bold;
+color: black;
+    text-align: center;
+
+}
+
 .linha2 {
   
   background-color: white;
