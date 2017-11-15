@@ -13,11 +13,9 @@
     <link rel="stylesheet" href="../css/css.css">  
   </head>
   <body>
-      <!-- Container Principal -->
       <div class="container-fluid col-xs-12 col-md-12">
             <header class="mainheader">HEALTH TRACK
               </header>  
-
           <div id="centeredmenu">
               <nav class="navbar navbar-default col-xs-12 col-md-12 navcolor">
                   <ul class="nav navbar-nav text-center">
@@ -30,24 +28,25 @@
                       <li><a href="../index.html"><img src="../img/shutdown-noattribution.svg" /></a></li>  
                   </ul>
                 </nav>
-          </div>
-        
-              <main class="row" id="borderuser">
+          </div>    
+              <main class="row" id="borderuser"><br><br>
                   <div>
-                  <p class="user"><strong>Nome: </strong>Guilherme Robles de Andrade <span class="glyphicon glyphicon-cog engrenagem"></span></p> 
-                  <p class="user"><strong>Data de Nascimento: </strong>05/11/1986<span class="glyphicon glyphicon-cog engrenagem"></span></p>
-                  <p class="user"><strong>Gênero: </strong><label class="radio-inline" for="genero"><input type="radio" name="M" checked="checked" required>M</label><label class="radio-inline" for="genero"><input type="radio" name="M">F</label> </p>
-                  <p class="user"><strong>Altura: </strong>1,65m <span class="glyphicon glyphicon-cog engrenagem"></span></p>
-                  <p class="user"><strong>Email: </strong>robles.guilherme@gmail.com</p>
-                  <p class="user"><strong>Senha*: </strong>******<span class="glyphicon glyphicon-cog engrenagem"></span></p>
-                  <p class="user alertasenha2">* A senha deverá ter no mínimo 6 caracteres, combinando letras e números</p>
-                  <p class="user checkbox"><label><input type="checkbox"> Continuar conectado</label></p>     <a href="dashboard.html" class="row"><button type="submit" class="btn btn-default" id="botao3" >Confirmar os meus dados</button></a></div>        
+                  <p class="user" id="textouser"><strong>Nome: </strong><span class="leftuser">Guilherme Robles de Andrade</span> <span class="glyphicon glyphicon-cog engrenagem3"></span></p> 
+                  <p class="user" id="textouser"><strong class="leftuser">Data de Nascimento: </strong>05/11/1986<span class="glyphicon glyphicon-cog engrenagem3"></span></p>
+                      <p class="user" id="textouser"><strong><span class="leftuser">Gênero: </span> </strong><label class="radio-inline" for="genero"><input type="radio" name="M" checked="checked" required>M</label><label class="radio-inline" for="genero"><input type="radio" name="M">F</label> </p>
+                  <p class="user" id="textouser"><strong>Altura: </strong>1,65m <span class="glyphicon glyphicon-cog engrenagem3"></span></p>
+                  <p class="user" id="textouser"><strong>Email: </strong>robles.guilherme@gmail.com</p>
+                  <p class="user" id="textouser"><strong>Senha*: </strong>******<span class="glyphicon glyphicon-cog engrenagem"></span></p>
+                  <p class="user alertasenha2" id="textouser">* A senha deverá ter no mínimo 6 caracteres, combinando letras e números</p>
+                  <p class="user checkbox" id="textouser"><label><input type="checkbox"> Continuar conectado</label></p>     
+                      <p class="user checkbox" id="textouser3"><a href="dashboard.html" class="row"><button type="submit" class="btn btn-default" id="botao3" >Confirmar os meus dados</button></a></p></div>        
               </main>
           <footer class="col-xs-12 col-md-12"><img src="../img/copyright.svg" class="info" alt="info" /><span class="creditos"><a href=”mailto:*remova*robles.guilherme@gmail.com”>Guilherme Robles</a></span><span class="creditos3">2017</span><span class="creditos2">Todos os direitos reservados.</span></footer>
-          
-          
-            <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+                    <script src="../js/jquery-3.js"></script>
+            <script src="../js/jquery.validate.min.js"></script>
+            <script src="../js/js.js"></script>
+            <script src="../js/check.js"></script>
+            <script src="../js/mask.js"></script>
       </div>
     </body>
 </html>

@@ -208,6 +208,39 @@ tr {
     
 }
 
+.tdali23 {
+  
+  font-size: 1.2em; 
+  color: white;
+  font-weight: bold;
+  background-color: #FF7F00;
+  border: none;
+  text-align: center;
+    
+}
+
+.tdpre22 {
+  
+  font-size: 1.2em; 
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  border: none;
+  text-align: right;
+    
+}
+
+.tdpeso22 {
+  
+  font-size: 1.2em; 
+  color: white;
+  font-weight: bold;
+  background-color: #0169CE;
+  border: none;
+  text-align: right;
+    
+}
+
 .tdali3 {
   
   font-weight: bold;  
@@ -351,9 +384,7 @@ footer {
     
 }
 .user {
-    font-size: 0.35em;
-    text-align: left;
-    margin-left: 3rem;
+    font-size: 0.4em;
     margin-top: 3rem;
 }
 
@@ -368,6 +399,14 @@ footer {
     font-size: 1.2em;
     border: none!important;
     text-align: right;
+}
+
+.engrenagem3 {
+    color: black;
+    font-size: 1em;
+    padding-left: 0.5em;
+
+
 }
 
 .lixeira {
@@ -395,13 +434,10 @@ footer {
     margin-right: 5em;
 }
 
-#genero {
-    margin-right: 15px;
-    
-}
+
 
 .alertasenha {
-    font-size: 0.8em;
+    font-size: 0.67em;
 } 
 
 .alertasenha2 {
@@ -413,6 +449,8 @@ footer {
     color: white;
     font-weight: bold;
     font-size: 0.9em !important;
+    float: center;
+    text-align: center;
 
 }
 
@@ -427,8 +465,10 @@ footer {
     background-color: #00a651;
     color: white;
     font-weight: bold; 
-    font-size: 0.3em;
+    font-size: 0.45em;
     float: center;
+
+
 
     
 }
@@ -438,7 +478,6 @@ footer {
     color: white !important; 
     font-weight: bold; 
     font-size: 0.4em;
-    text-align: center;
 
 
     
@@ -494,6 +533,7 @@ footer {
 #borderuser {
     background-color: white;
     border-color: white;
+
 }
 .ok {
     font-size: 0.8em;
@@ -713,7 +753,7 @@ hea {
     color: red;
     text-align: right;
     float: right;
-    font-size: 0.25em;
+    font-size: 0.75em;
 }
 
 .btncad {
@@ -1108,11 +1148,15 @@ restante {
 .cadastro {
     font-size: 0.4em !important;
     font-family: sans-serif !important;
-    text-align: left;
-    margin-left: 30px;
+    text-align: center;
+    float: center!important;
     border: none !important;
-    border-color: white !important;
-    margin-right: 30px; 
+    border-color: white !important; 
+ margin-left: 20%;
+ margin-right: 20%;
+    background-color: white;
+
+}
  
     
 }
@@ -1144,10 +1188,14 @@ main, header{
 }
 
 #conectado {
-    font-size: 0.3em;
+    font-size: 0.75em;
     float: left;
 }
 
+#conectado2 {
+    font-size: 0.8em;
+    float: center;
+}
 #esqsenha {
  float: center;
  margin-left: 20%;
@@ -1155,8 +1203,21 @@ main, header{
  border: solid #666666 3px;;
 
 }
+#cadas {
+ float: center;
+ margin-left: 20%;
+ margin-right: 20%;
 
-#pesfig {
+}
+
+}
+
+#pesfigu {
+    font-size: 0.3em;
+    float: center;
+}
+
+#pesfigu {
     font-size: 0.3em;
     float: center;
 }
@@ -1202,6 +1263,15 @@ color: black;
 
 }
 
+.linhaadd2 {
+  
+    font-size: 0.4em;
+    font-weight: bold;
+color: black;
+    text-align: center;
+
+}
+
 .linha2 {
   
   background-color: white;
@@ -1236,6 +1306,21 @@ color: black;
 
 }
 
+.linhapre {
+  
+  background-color: red;
+    font-size: 1em;
+    border: none;
+
+}
+
+.linhapeso {
+  
+  background-color: #0169CE;
+    font-size: 1em;
+    border: none;
+
+}
 .linhaali {
   
   background-color: #FF7F00;
@@ -1244,6 +1329,14 @@ color: black;
 
 }
 
+.linhaali2 {
+  
+  background-color: #FF7F00;
+    font-size: 1em;
+    border: none;
+    text-align: center;
+
+}
 .linhaatv {
   
   background-color: #993399;
@@ -1287,3 +1380,34 @@ color: black;
     border: none;
 }
 
+#textouser {
+    text-align: center;
+}
+
+#textouser2 {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+#textouser3 {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.checkbox {
+    font-size: 0.4em;
+}
+
+.gender {
+    margin-left: 0.5em;
+    font-weight: normal;
+}
+
+.gender2 {
+    margin-left: 0.75em!important;
+    font-weight: normal;
+}
+
+#leftuser {
+    text-align: left;!important
+}
